@@ -1,0 +1,29 @@
+{{ define "main" }}
+
+<section class="section">
+  <div class="container">
+    <div class="row">
+      <div class="offset-lg-1">
+        <h1 class="mb-4">{{ .Params.title }}</h1>
+      </div>
+    </div>
+    <div class="gg-container offset-lg-1">
+      <div class="gg-box dark" id="horizontal">
+        {{ range .Params.images }}
+          <img class="img-fluid w-100" src="{{ . | absURL }}" alt="product-image">
+        {{ end }}
+      </div>
+    </div>
+    <div class="row">
+      <div class="offset-lg-1">
+        <div class="content">
+          <p>
+          {{ .Params.content | safeHTML}}
+        </p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+{{ end }}

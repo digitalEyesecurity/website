@@ -1,0 +1,18 @@
+{{ $data := index .Site.Data .Site.Language.Lang }}
+
+{{- if $data.homepage.subscription.enable }}
+{{- with $data.homepage.subscription }}
+<section class="call-to-action section" style="background-image: url('{{ .bg_image | absURL }}');">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-6 col-md-8 text-center mx-auto">
+        <h2 class="subheading text-white">{{ .title | markdownify }}</h2>
+        <p class="text-white">{{ .content | markdownify }}</p>
+            <a class="btn btn-main btn-submit" href="/contact" type="submit" name="subscribe">{{i18n "contactus"}}</a>
+        </div><!-- /input-group -->
+      </div>
+    </div>
+  </div>
+</section><!-- #call-to-action close -->
+{{- end }}
+{{- end }}

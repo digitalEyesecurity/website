@@ -1,0 +1,121 @@
+############################# banner ############################
+banner:
+  enable: true
+  title: "Always watching, always secure."
+  content: "DigitalEye is a leading provider of CCTV security solutions. We specialize in the design, installation, and maintenance of CCTV systems for both residential and commercial properties. Our team of experts has years of experience in the industry and is dedicated to providing our customers with the highest level of service and support. We use only the latest and most advanced technology to ensure that our systems are reliable, efficient, and easy to use. With DigitalEye, you can have peace of mind knowing that your property is always protected."
+  image: "images/cctv.png"
+  button:
+    enable: true
+    label: "View Our Works"
+    link: "our-works/"
+
+############################# Feature ############################
+features:
+  enable: true
+  title: "Our Core Features"
+  image: "images/sec2.png"
+
+  # feature at the left of the image
+  left_side:
+    # feature item loop
+    - title: "High-definition cameras"
+      icon: "tf-ion-ios-videocam-outline"
+      content: "High-definition cameras: Our cameras capture clear and detailed images, ensuring that you have the evidence you need in case of a security breach."
+
+      # feature item loop
+    - title: "Remote access and monitoring"
+      icon: "tf-ion-ios-speedometer-outline"
+      content: "Our systems allow you to access and monitor your cameras from anywhere, at any time, using your smartphone, tablet, or computer."
+
+      # feature item loop
+    - title: "Regular maintenance"
+      icon: "tf-ion-ios-timer-outline"
+      content: "Our team of experts will perform regular maintenance to ensure that your system is running at peak performance at all times."
+
+  # feature at the right of the image
+  right_side:
+    # feature item loop
+    - title: "Cloud-based storage"
+      icon: "tf-ion-ios-cloud-outline"
+      content: "All footage is securely stored in the cloud, so you can access it from anywhere and never have to worry about losing important data."
+
+      # feature item loop
+    - title: "Scalable and customizable"
+      icon: "tf-ion-ios-color-wand-outline"
+      content: "Our systems are fully scalable and customizable, so you can choose the right solution for your specific needs and budget."
+
+      # feature item loop
+    - title: "24/7 Technical support"
+      icon: "tf-ion-ios-clock-outline"
+      content: "Our Technical support is available to help you with any questions or issues you may have with your system, 24/7."
+
+############################# promo ############################
+promo:
+  enable: true
+  image: "images/cctv.png"
+  title: "Our Vision and Mission"
+  content:
+    "The vision of DigitalEye is to be the premier provider of CCTV security solutions, known for our innovative technology, exceptional customer service, and commitment to protecting our customers' properties.
+    <br><br>
+    Our mission is to provide our customers with the highest quality CCTV systems, tailored to their specific needs and budget. We strive to stay at the forefront of the industry by continuously researching and implementing the latest technology and advancements in security. We will always prioritize customer satisfaction and offer 24/7 technical support and regular maintenance to ensure that our systems are running at peak performance at all times."
+
+############################# About Product #######################
+about_product:
+  enable: false
+  title: "Why Choose Apple Watch"
+  items:
+    # about product item loop
+    - image: "images/showcase/showcase-4.png"
+      title: "Lorem ipsum dolor sit amet."
+      content:
+        "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptate, sed, assumenda. Tenetur
+        sed esse, voluptas voluptate est veniam numquam, quis magni. Architecto minus suscipit
+        quas, quo harum deserunt consequatur cumque!"
+      button:
+        enable: false
+        label: "Check Features"
+        link: "#/"
+
+    # about product item loop
+    - image: "images/showcase/showcase-3.png"
+      title: "Lorem ipsum dolor sit amet."
+      content:
+        "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptate, sed, assumenda. Tenetur
+        sed esse, voluptas voluptate est veniam numquam, quis magni. Architecto minus suscipit
+        quas, quo harum deserunt consequatur cumque!"
+      button:
+        enable: false
+        label: "Check Features"
+        link: "#/"
+
+#################################### Products ########################
+products:
+  enable: false
+  title: "Checkout Our All Products"
+
+################################## Subscription ###################
+subscription:
+  enable: true
+  bg_image: "images/call-to-action.jpg"
+  title: "Get in touch with us"
+  content: "Please consider calling us for to digital security solutions."
+  placeholder: "Your Email Address Here"
+
+############################## Testimonial ##########################
+testimonial:
+  enable: true
+  title: "Watch Review"
+  testimonial_item:
+    # testimonial item loop
+    - name: "Jijo Jose"
+      designation: "CEO, HornBill Qatar"
+      image: "images/jijo.jpg"
+      content: "I recently had DigitalEye install a CCTV system at my business and I couldn't be happier with the results. The team was professional, efficient, and their customer service was excellent. The cameras are high-quality and the remote access feature is a game-changer. I highly recommend DigitalEye to anyone in need of a CCTV system."
+    - name: "Raison P.R."
+      designation: "Proprietor, R3 Cars Kerala India"
+      image: "images/raj.jpg"
+      content: "I've been using DigitalEye's CCTV system for my home for over a year now and it's been a great investment. The motion detection and facial recognition features have helped me catch a few would-be burglars and the cloud-based storage makes it easy for me to access footage if I need it. The team at DigitalEye is also very responsive and helpful if I ever have any questions or issues."
+    - name: "Raneesh P.R."
+      designation: "Proprietor, R3 Gas Pipeline Kerala India"
+      image: "images/ran.jpg"
+      content: "I would highly recommend DigitalEye to anyone in need of a CCTV system. Their team was professional, knowledgeable, and efficient. The system they installed for me is top-notch and the remote access feature is a huge plus. I feel much more secure now that my property is protected with DigitalEye."

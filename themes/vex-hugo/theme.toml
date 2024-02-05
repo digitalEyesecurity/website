@@ -1,0 +1,19 @@
+# theme.toml for the Vex Hugo theme
+
+name = "Vex"
+license = "MIT"
+licenselink = "/"
+description = ""
+homepage = "/"
+demosite = "/"
+tags = ["onepage", "bootstrap", "ecommerce", "single product", "product", "themefisher","gethugothemes"]
+features = ["onepage", "product"]
+min_version = "0.62.2"
+
+[author]
+  name = ""
+  homepage = "/"
+
+[original]
+  name = "Vex"
+  homepage = "/"
